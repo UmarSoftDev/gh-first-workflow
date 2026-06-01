@@ -1,0 +1,11 @@
+name: firt-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing greeting
+        run: echo "hello umar"
+      - name: printing goodbye
+        run: echo "bye umar"
+        
